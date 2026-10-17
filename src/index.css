@@ -10,10 +10,11 @@
   --paper: #ffffff;
   --card: #ffffff;
   --ink: #151515;
-  --muted: #5c5c5c;
+  --muted: #4b4b4b;
   --line: #e5e5e5;
-  --orange: #cd2d83;
+  --orange: #ad1f69;
   --blue: #48a0ce;
+  --blue-ink: #176887;
   --yellow: #f5e14e;
   --green: #48a0ce;
   --display: "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
@@ -32,6 +33,8 @@ body {
   min-width: 320px;
   margin: 0;
   background: var(--paper);
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 body,

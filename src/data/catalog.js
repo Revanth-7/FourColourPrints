@@ -2,8 +2,8 @@ const baseUrl = import.meta.env.BASE_URL
 
 export const navItems = [
   { label: 'Home', href: '#home' },
-  { label: 'Quick picks', href: '#quick-picks' },
-  { label: 'Print menu', href: '#prices' },
+  { label: 'Popular prints', href: '#quick-picks' },
+  { label: 'Prices', href: '#prices' },
   { label: 'Services', href: '#services' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -13,12 +13,12 @@ export const catalogProducts = [
     id: 'visiting-cards',
     name: 'Visiting cards',
     image: `${baseUrl}catalog/visiting-cards-poster.jpeg`,
-    spec: '300 GSM · FOUR COLOUR',
-    description: 'Make a lasting first impression with a crisp, full-colour finish.',
+    spec: '300 GSM · FULL COLOUR',
+    description: '300 GSM visiting cards with crisp, full-colour printing.',
     unit: 'cards',
     priceGroups: [
       {
-        title: 'Single-side',
+        title: 'Single-sided',
         prices: [
           { quantity: 100, price: '155' },
           { quantity: 200, price: '255' },
@@ -26,7 +26,7 @@ export const catalogProducts = [
         ],
       },
       {
-        title: 'Double-side (B to B)',
+        title: 'Double-sided',
         prices: [
           { quantity: 100, price: '245' },
           { quantity: 200, price: '400' },
@@ -39,12 +39,12 @@ export const catalogProducts = [
     id: 'a5-pamphlets',
     name: 'A5 pamphlets',
     image: `${baseUrl}catalog/a5-pamphlets-poster.jpeg`,
-    spec: '130 GSM ART PAPER · FOUR COLOUR',
-    description: 'A handy format for sharing your story, offer, or next big announcement.',
+    spec: '130 GSM ART PAPER · FULL COLOUR',
+    description: 'A5 pamphlets for promotions, events and announcements.',
     unit: 'pieces',
     priceGroups: [
       {
-        title: 'One-side',
+        title: 'Single-sided',
         prices: [
           { quantity: 100, price: '410' },
           { quantity: 200, price: '730' },
@@ -52,7 +52,7 @@ export const catalogProducts = [
         ],
       },
       {
-        title: 'Double-side',
+        title: 'Double-sided',
         prices: [
           { quantity: 100, price: '720' },
           { quantity: 200, price: '1,350' },
@@ -65,8 +65,8 @@ export const catalogProducts = [
     id: 'a4-letterheads',
     name: 'A4 letterheads',
     image: `${baseUrl}catalog/a4-letterheads-poster.jpeg`,
-    spec: '100 GSM · FOUR COLOUR',
-    description: 'Put your business on a polished footing with a letterhead to match.',
+    spec: '100 GSM · FULL COLOUR',
+    description: 'A4 letterheads printed on your choice of Maplitho or bond paper.',
     unit: 'sheets',
     priceGroups: [
       {
@@ -92,7 +92,7 @@ export const catalogProducts = [
     name: 'A4 fold brochures',
     image: `${baseUrl}catalog/a4-fold-brochures-poster.jpeg`,
     spec: 'DUPLEX · 130 GSM ART PAPER',
-    description: 'Give your message room to unfold with a full-colour, folded brochure.',
+    description: 'Folded A4 brochures printed in full colour on 130 GSM art paper.',
     unit: 'pieces',
     priceGroups: [
       {
@@ -112,7 +112,7 @@ export const printingTypes = ['Digital print', 'Offset print', 'Screen print']
 
 export const materials = [
   'GSM board',
-  'Registration sticker (Reg. sticker)',
+  'Registration stickers',
   'PVC sticker',
   'Synthetic material',
   'Paper',
@@ -133,18 +133,18 @@ export const finishingOptions = [
   'Spot UV',
   'Gold & silver foiling',
   'POD printing',
-  'All types of binding',
+  'Binding',
 ]
 
 export const giftItems = [
   'Mug',
   'Photo frame',
   'Pen',
-  'Key chain',
+  'Keychain',
   'Mouse pad',
   'Water bottle',
   'Badge',
-  'Paper weight',
+  'Paperweight',
   'Crystal',
 ]
 
